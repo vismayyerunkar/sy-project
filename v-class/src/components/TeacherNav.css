@@ -1,0 +1,44 @@
+.teacher_nav{
+    /* background-color: rgb(82, 199, 245); */
+    height: 60px;
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    display :flex;
+    /* align-items: center; */
+    /* border-radius: 30px;
+    text-align: center; */
+}
+
+.name{
+    background-color: rgb(82, 199, 245);
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    display :flex;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    /* flex:0.8; */
+    align-self: center;
+    padding: 20px;
+
+}
+
+.subject_value{
+    background-color: rgb(82, 199, 245);
+    height: 30px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display :flex;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+    align-self: center;
+
+    padding: 20px;
+    /* flex:0.2; */
+
+}

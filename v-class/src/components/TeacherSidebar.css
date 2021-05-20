@@ -1,0 +1,48 @@
+.teacherSidebar{
+    height: 100vh;
+    width: 20vw;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    background-color: rgb(101, 206, 255);
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+
+
+
+}
+.user{
+    padding: 20px;
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.teacher__link{
+    color: black;
+    text-decoration: none;
+
+
+}
+.newLink{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    width: 90%;
+    height: 59px;
+    left: 27px;
+    top: 321px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+
+    background: #C4C4C4;
+    border-radius: 40px;
+}

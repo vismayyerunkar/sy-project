@@ -1,0 +1,101 @@
+.btn{
+    display: flex;
+    width: 18vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+
+    background: #010101;
+    border-radius: 30px;
+    color: red;
+    margin-left: 20px;
+    margin-top: -80px;
+}
+
+
+
+
+
+.btn:hover{
+    color: rgb(221, 66, 66);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: center; */
+    
+    /* list-style: none;
+    text-decoration: none; */
+
+
+    /*  */
+    /* cursor: pointer;
+    display: flex;
+    width: 18vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+
+    background: #010101;
+    border-radius: 30px;
+    color: red;
+    margin-left: 20px;
+    margin-top: -30px;
+     */
+
+}
+
+
+@media (min-width:1200) and (max-width:2000){
+    .btn{
+        position: absolute;
+        display: flex;
+        width: 18vw;
+        height: 8vh;
+        align-items: center;
+        justify-content: center;
+    
+        background: #010101;
+        border-radius: 30px;
+        color: red;
+    }
+    
+}
+
+
+/* .btn >h3{ */
+    /* display: block; */
+    
+    /* position: absolute; */
+    
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+
+    display: flex;
+    width: 10vw;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+
+    background: #010101;
+    border-radius: 30px;
+    color: rgb(221, 66, 66);
+
+    margin-left: 20px;
+    margin-top: -30px; 
+} */
+
+/* .btn>h3:hover{ */
+  /* color: rgb(119, 119, 119);    */
+  /* text-shadow: 1px 1px white; */
+  /* width: 250px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+} */
+

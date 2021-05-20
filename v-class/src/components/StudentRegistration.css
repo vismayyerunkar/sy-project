@@ -1,0 +1,375 @@
+/* pointer-events: none; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+#username{
+    color: rgb(38, 41, 233);
+    font-family : sans-serif !important;
+}
+
+#login-warning{
+    color: red;
+}
+
+#success-btn{
+    padding: 10px 30px;
+    background-color: rgb(22, 156, 82);
+    color: white;
+    border: none;
+    font-family: sans-serif !important;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    transition: transform .2s; 
+    color: black;
+}
+
+#message{
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#success-btn:hover{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+}
+
+#success-btn:active{
+    padding: 10px 30px;
+    background-color: rgb(97, 90, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+
+#success{
+    color: rgb(4, 170, 115);
+}
+
+.email-sent{
+    background-color: rgb(241, 241, 241) !important;
+    font-family: 'Montserrat' ,sans-serif;
+    width: 50%;
+    height: 40%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    animation: pop-down 0.5s ease-out;
+}
+
+
+.loading-circle{
+    font-size:100px !important;
+    font-weight: large !important;
+
+}
+
+.register-form-inactive{
+    display: none;
+}
+
+
+.loading{
+    color:red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.register-form .register-button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    transition: transform .2s; 
+
+}
+.register-button:hover{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+}
+
+.register-button:active{
+    padding: 10px 30px;
+    background-color: rgb(97, 90, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+.routed__login{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pop-up 0.5s ease-in;
+}
+
+@keyframes pop-up{
+    0%{opacity:0};
+    50%{opacity:50};
+    100%{opacity:100};
+
+}
+
+
+.register-form-bg-inactive{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: pop-down 0.5s ease-out;
+
+}
+
+@keyframes pop-down{
+    0%{opacity:100};
+    50%{opacity:50};
+    100%{opacity:0};
+
+}
+
+
+.register-form-bg{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pop-up 0.5s ease-in;
+}
+
+@keyframes pop-up{
+    0%{opacity:0};
+    50%{opacity:50};
+    100%{opacity:100};
+
+}
+
+
+
+
+#register-cancel-icon{
+    align-self: flex-end;
+    margin-right: 3%;
+    transition: transform .2s; 
+
+}
+
+
+#register-cancel-icon:hover{
+    align-self: flex-end;
+    margin-right: 3%;
+    color: red;
+    cursor: pointer;
+}
+
+#register-cancel-icon:active{
+    align-self: flex-end;
+    margin-right: 3%;
+    color: rgb(122, 13, 13);
+    cursor: pointer;
+    transform:scale(1.3);
+
+}
+
+#login-logo{
+margin-top: -9%;
+}
+#login-header{
+    display: flex;
+}
+
+#existing-user{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+
+#signIn-to-account{
+    color: blue;
+    transition: transform .2s; 
+    margin-left: -15% !important;
+
+}
+
+#signIn-to-account:hover{
+    color: rgb(8, 107, 255);
+    cursor: pointer;
+    
+}
+
+#signIn-to-account:active{
+    color: rgb(30, 139, 241);
+    cursor: pointer;
+    transform:scale(1.1);
+
+
+}
+
+#forgot-password{
+    margin-bottom: 10%;
+    color: rgb(221, 56, 50);
+    transition: transform .2s; 
+
+}
+
+#forgot-password:hover{
+    margin-bottom: 10%;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+#forgot-password:active{
+    margin-bottom: 10%;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+
+@media (min-width:0px) and (max-width: 1000px) {
+
+
+    
+
+.register-form{
+    background-color: rgb(241, 241, 241) !important;
+    font-family: 'Montserrat' ,sans-serif;
+    width: 70%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.register-cred{
+    display: flex;
+    font-family: 'Montserrat' ,sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#register-email{
+   width: 100%;
+   margin-left: 0px;
+}
+/* 
+.reEnter-password{
+    width: 100%;
+
+}
+#reEnter-password{
+    width: 100%;
+
+} */
+
+
+}
+
+
+@media (min-width:1000px){
+
+
+
+    
+    .register-form{
+        background-color: rgb(241, 241, 241) !important;
+        font-family: 'Montserrat' ,sans-serif;
+        width: 25%;
+        height: 50%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    
+    
+    .login-cred{
+        display: flex;
+        font-family: 'Montserrat' ,sans-serif;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+.meet{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.meet>hr{
+    margin-top: 20px;
+}

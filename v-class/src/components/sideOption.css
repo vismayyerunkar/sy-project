@@ -1,0 +1,31 @@
+.sideoption{
+    /* color:blue;
+    background-color: rgb(180, 180, 180); */
+    /* position: absolute; */
+    display:flex;
+    width: 90%;
+    height: 59px;
+    left: 27px;
+    top: 321px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background: #C4C4C4;
+    border-radius: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.sideoption:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}

@@ -1,0 +1,52 @@
+.notice{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(144, 164, 230);
+    width:70%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: 150px;
+    border-radius:30px;
+    align-items: center;
+   justify-content: center;
+}
+.notice_heading_1{
+    display: flex;
+    color: rgb(255, 6, 6);
+}
+
+.notice_div{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.data_value{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 4px;
+}
+
+.deletebtn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: red;
+    outline: none;
+    font-size: medium;
+}
+.deletebtn:hover{
+    background-color: rgba(170, 40, 40, 0.76);
+    color: white;
+
+}
+
+
+
+
+

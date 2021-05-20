@@ -1,0 +1,433 @@
+
+
+#errormsg{
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+
+.login-form .login-button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    transition: transform .2s; 
+
+}
+.login-button:hover{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+}
+
+.login-button:active{
+    padding: 10px 30px;
+    background-color: rgb(97, 90, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.routed__login{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pop-up 0.5s ease-in;
+}
+
+@keyframes pop-up{
+    0%{opacity:0};
+    50%{opacity:50};
+    100%{opacity:100};
+
+}
+
+
+.login-form-bg-inactive{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: pop-down 0.5s ease-out;
+
+}
+
+@keyframes pop-down{
+    0%{opacity:100};
+    50%{opacity:50};
+    100%{opacity:0};
+
+}
+
+
+.login-form-bg-active{
+
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pop-up 0.5s ease-in;
+}
+
+@keyframes pop-up{
+    0%{opacity:0};
+    50%{opacity:50};
+    100%{opacity:100};
+
+}
+
+
+
+
+#cancel-icon{
+    align-self: flex-end;
+    margin-right: 3%;
+    transition: transform .2s; 
+
+}
+#cancel-icon:hover{
+    align-self: flex-end;
+    margin-right: 3%;
+    color: red;
+    cursor: pointer;
+}
+
+#cancel-icon:active{
+    align-self: flex-end;
+    margin-right: 3%;
+    color: rgb(122, 13, 13);
+    cursor: pointer;
+    transform:scale(1.3);
+
+}
+
+#login-logo{
+margin-top: 9%;
+
+}
+#login-header{
+    display: flex;
+
+}
+
+#no-account{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    align-items: center;
+    justify-items: center;
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+
+
+#create-account{
+    color: blue;
+    transition: transform .2s; 
+
+}
+#create-account:hover{
+    color: rgb(8, 74, 255);
+    cursor: pointer;
+    /* transform:scale(1.1); */
+
+
+}
+#create-account:active{
+    color: rgb(30, 139, 241);
+    cursor: pointer;
+    transform:scale(1.1);
+
+
+}
+
+#forgot-password{
+    margin-bottom: 10%;
+    color: rgb(221, 56, 50);
+    transition: transform .2s; 
+
+}
+
+#forgot-password:hover{
+    margin-bottom: 10%;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+#forgot-password:active{
+    margin-bottom: 10%;
+    color: rgb(250, 0, 0);
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+
+@media (min-width:0px) and (max-width: 1000px) {
+
+ 
+
+.message-box{
+    margin-top: 30%;
+    width: 60%;
+    color: black;
+    margin-left: 20%;
+    margin-right: 40% !important;
+    background-color: rgb(212, 209, 209);
+    position: fixed;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 20%;
+    font-family: 'Montserrat' ,sans-serif;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+    /* transform: translate(0px,100px) ; */
+    -webkit-transition: transform 1.05s ease-out;
+}
+
+ 
+
+.message-box-active{
+    /* z-index: 400; */
+    flex-direction: column;
+    font-family: 'Montserrat' ,sans-serif;
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+    color: black;
+    margin-right: 40% !important;
+    background-color: rgb(212, 209, 209);
+    position: fixed;
+    border-radius: 15px;
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: flex-end;
+    /* justify-content: center; */
+
+
+    transform: translate(0px,100px) ;
+    -webkit-transition: transform 1.05s ease-out;
+}
+
+
+.login-form{
+    z-index: 200;
+    background-color: rgb(241, 241, 241) !important;
+    font-family: 'Montserrat' ,sans-serif;
+    width: 70%;
+    height: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+/* .login-form .login-button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+    transition: transform .2s; 
+
+}
+.login-button:hover{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+}
+
+.login-button:active{
+    padding: 10px 30px;
+    background-color: rgb(97, 90, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Montserrat' ,sans-serif;
+    cursor: pointer;
+    border-radius: 7px;
+    outline: none;
+	transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+} */
+
+.login-cred{
+    display: flex;
+    font-family: 'Montserrat' ,sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+  
+}
+
+#login-email{
+   width: 100%;
+   margin-left: 0px;
+
+}
+
+#login-password{
+    width: 100%;
+
+}
+
+}
+@media (min-width:1000px){
+
+    .message-box{
+        
+        margin-top: 13%;
+        width: 22%;
+        color: black;
+        margin-left: 39%;
+        margin-right: 40% !important;
+        background-color: rgb(212, 209, 209);
+        position: fixed;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        height: 20%;
+        font-family: 'Montserrat' ,sans-serif;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+    
+        /* transform: translate(0px,100px) ; */
+        -webkit-transition: transform 1.05s ease-out;
+    }
+    
+     
+    
+    .message-box-active{
+        font-size: small !important;
+        margin-top: 13%;
+        width: 22%;
+        color: black;
+        margin-left: 39%;
+        margin-right: 40% !important;
+        background-color: rgb(212, 209, 209);
+        position: fixed;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        height: 20%;
+        font-family: 'Montserrat' ,sans-serif;
+        flex-direction: column;
+        justify-content: flex-end;
+    
+    
+    
+        transform: translate(0px,100px) ;
+        -webkit-transition: transform 1.05s ease-out;
+    }
+    
+    
+
+    
+    .login-form{
+        z-index: 200;
+        background-color: rgb(241, 241, 241) !important;
+        font-family: 'Montserrat' ,sans-serif;
+        width: 25%;
+        height: 50%;
+        border-radius: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    
+    
+    }
+    .login-form .login-button{
+        padding: 10px 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+        font-family: 'Montserrat' ,sans-serif;
+        cursor: pointer;
+        border-radius: 7px;
+        outline: none;
+        transition: transform .2s; 
+
+    
+    }
+   
+    
+    .login-cred{
+        display: flex;
+        font-family: 'Montserrat' ,sans-serif;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    
+    
+}
+
+
+
+
+
+
+

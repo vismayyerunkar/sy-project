@@ -1,0 +1,16 @@
+
+.submit_btn{
+    margin-top: 80px;
+}
+.warning_msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: orange;
+    color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}

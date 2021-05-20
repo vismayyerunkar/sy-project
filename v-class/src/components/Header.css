@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.header{
+    /* background-color: rgb(122, 216, 245); */
+    display: flex;
+    justify-content: space-evenly;
+    /* padding :20px; */
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    
+}
